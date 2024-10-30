@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Worker Guidance - Technical Drawing Viewer</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'worker_app/css/styles.css' %}">
+
+</head>
+<body>
+    <h1>Technical Drawing Viewer</h1>
+    <div class="main">
+        <div id="file-list" class="sub-1"></div>
+        <div class="sub-2">
+            <iframe id="file-viewer" style="width: 100%; height: 600px;"></iframe>
+        </div>
+    </div>
+
+    <script src="{% static 'worker_app/js/viewer.js' %}"></script>
+</body>
+</html>
